@@ -1,0 +1,140 @@
+
+.mainBody{
+    background-image: url(/images/complete_desktop.png);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    
+    
+}
+
+.container{
+    width: 90%;
+    margin-left: 125px;
+    margin-top: 125px;
+    margin-right: 12%;
+}
+
+.topPart{
+    margin-top: 125px;
+    padding-left: 7%;
+    color: white;
+}
+
+.rightSide{
+    color: white;
+}
+
+.rightSideTopHeading{
+    color: white;
+    text-align: center;
+    text-justify: auto;
+    margin-bottom: 6%;
+}
+
+
+.row{
+    color: linear-gradient(165.48deg, #000121 0%, #000356 100%);
+    
+}
+input[type='checkbox'] {
+    accent-color:#54c72b;
+    
+}
+
+#inputFirstName{
+    border: none; 
+    background-color: transparent;
+    color:white;
+}
+
+#inputLastName{
+    border: none; 
+    background-color: transparent;
+    color:white;
+}
+
+#inputCountry{
+    border: none; 
+    background-color: transparent;
+    color:white;
+}
+
+#inputPhoneNumber{
+    border: none; 
+    background-color: transparent;
+    color:white;
+   
+}
+
+#inputOrgName{
+    border: none; 
+    background-color: transparent;
+    color:white;
+}
+
+#inputOrgSize{
+    border: none; 
+    background-color: transparent;
+    color:white;
+}
+
+#inputWorkEmailId{
+    border: none; 
+    background-color: transparent;
+    color:white;
+}
+
+.col{
+    margin: 5px;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 74px;
+    font-weight: 700;
+}
+
+li{
+    font-family:'ITC Bauhaus Medium' ;
+}
+
+.modalCentre{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: linear-gradient(165.48deg, #000121 0%, #000356 100%);
+}
+
+.modal-footer{
+    justify-content: center;
+    background:  #00A3FF;;
+}
+
+.modal-header {
+    justify-content: center;
+    
+    font-size: 1.5rem;
+    font-weight: 700;
+    background: linear-gradient(165.48deg, #000121 0%, #000356 100%);
+    
+}
+
+.modal-title{
+    color: white;
+
+}
+
+.modal-body {
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background:  #00A3FF;;
+    
+  
+}

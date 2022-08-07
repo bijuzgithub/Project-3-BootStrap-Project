@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- pseudo elements fpr check box color -->
+<!-- display modal via JS -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codeblue Desktop View</title>
+    <meta name="robots" content="INDEX, UNFOLLOW">
+    <link rel="icon" href="/images/CodeBlue Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/codebluDesktopView.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Prompt:wght@700&family=Source+Sans+Pro:wght@900&family=Source+Serif+Pro:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="mainBody">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="topPart">
+                <div class="leftSideoTopComplete">
+                    <img class=" img-fluid" src="/images/CodeBlue Logo.png" alt=""
+                        style="margin-top: -120px;margin-left: 44px;">
+                    <br>
+                    <br>
+                    <div class="leftSideLogoTag" style="margin-top: -40px;margin-left: 43px;">
+                        <img class=" img-fluid" src="/images/The Next Gen LMS Platform.png">
+                        <img class=" img-fluid" src="/images/line_Vector 769.png">
+                        <img class=" img-fluid" src="/images/Train, Track & Evaluate Your Team - All In One Place.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
+            <h5 class="topHeading  mt-5 mb-3" style="color: white; text-align: center;">Get Your Free LMS Platform Now</h5>
+            <form class="row g-3 mt-15 mr-2" style="color: white;" method="dialog" id="CustomizationForm">
+                <div class="col-md-6 ">
+                    <div class="firstName border border-primary rounded px-2">
+                        <label for="inputFirstName" class="form-label">First Name<sup>*</sup></label>
+                        <input type="text" class="form-control" id="inputFirstName" required>
+                    </div>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="lastName border border-primary rounded px-2">
+                        <label for="inputLastName" class="form-label">Last Name<sup>*</sup></label>
+                        <input type="text" class="form-control" id="inputLastName" required>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-2">
+                    <div class="country border border-primary rounded px-2">
+                        <label for="inputCountry" class="form-label"
+                            style="padding-top: 0px;padding-right: 65px;">Country<sup>*</sup></label>
+                        <select id="inputCountry" class="form-select" required=""
+                            style="padding-top: 0px;margin-top: 0px;margin-bottom: 14px;">
+                            <option selected></option>
+                            <option>India</option>
+                            <option>US</option>
+                            <option>Nigeria</option>
+                            <option>UAE</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-2 ">
+                    <div class="phoneNumber border border-primary rounded px-2">
+                        <label for="inputPhoneNumber" class="form-label">Phone Number<sup>*</sup></label>
+                        <input type="text" class="form-control" id="inputPhoneNumber" required>
+                    </div>
+                </div>
+                <div class="col-12 mt-2 ">
+                    <div class="orgName border border-primary rounded px-2">
+                        <label for="inputOrgName" class="form-label">Organinzation Name<sup>*</sup></label>
+                        <input type="text" class="form-control" id="inputOrgName" required>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-2 ">
+                    <div class="orgSize border border-primary rounded px-2">
+                        <label for="inputOrgSize" class="form-label">Organinzation Size<sup>*</sup></label>
+                        <select id="inputOrgSize" class="form-select" required="" style="margin-bottom: 16px;">
+                            <option selected></option>
+                            <option>0-250</option>
+                            <option>250-750</option>
+                            <option>750-1000</option>
+                            <option>1000+</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-2 ">
+                    <div class="workEmailID border border-primary rounded px-2">
+                        <label for="inputWorkEmailId" class="form-label">Work Email ID<sup>*</sup></label>
+                        <input type="email" class="form-control" id="inputWorkEmailId" required>
+                    </div>
+                </div>
+                <div class="col-12 mt-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label text-justify" style="font-size: 0.75em;" for="gridCheck">
+                            I authorize "Eudonix Learning Solutions Pvt Ltd" and its representatives to Call, SMS, Email
+                            or WhatsApp me about its Product and Offers. This consent overrides and registration for
+                            DNC/NDNC
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12 mt-5">
+                    <button type="reset" class="btn btn-primary btn-block" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal" id="mysubmit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Thank You</h5>
+                </div>
+                <div class="modal-body">
+                    <h2>Form submitted successfully</h2>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
